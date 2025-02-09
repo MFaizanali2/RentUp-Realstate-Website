@@ -1,0 +1,77 @@
+.footer {
+    background-color: #1d2636;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .footer img{
+    width: 150px;
+    padding: 20px 0;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .subscribe {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .subscribe input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe button {
+    padding: 10px 15px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+  }
+  
+  .column {
+    min-width: 150px;
+    padding: 10px;
+  }
+  
+  .column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  .column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+  

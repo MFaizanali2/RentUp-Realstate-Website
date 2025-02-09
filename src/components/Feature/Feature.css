@@ -1,0 +1,17 @@
+.feature-wrapper{
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+} 
+.feature-content{
+    max-width: 200px;
+    height: auto;
+    margin: 30px 0;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px #e0dcdc;
+    padding: 20px;
+}
+.feature-content img{
+    width: 100px;
+}
