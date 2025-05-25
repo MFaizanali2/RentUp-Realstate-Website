@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,15 +15,16 @@ const Header = () => {
         ☰
       </button>
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><NavLink to="/" className="a">Home</NavLink></li>
+        <li><NavLink to="/about" className="a">About</NavLink></li>
+        <li><NavLink to="/services" className="a">Services</NavLink></li>
+        <li><NavLink to="/destination" className="a">Destination</NavLink></li>
+        <li><NavLink to="/agent" className="a">Agent</NavLink></li>
+        <li><NavLink to="/pricing" className="a">Pricing</NavLink></li>
+        <li><NavLink to="/contact" className="a">Contact</NavLink></li>
         <div className="nav-btn">
         <button className="fBtn"><span>2</span> My list</button>
-        <button><i class="fa-solid fa-right-to-bracket"></i> Sign in</button>
+        <button><i className="fa-solid fa-right-to-bracket"></i> Sign in</button>
       </div>
       </ul>
       

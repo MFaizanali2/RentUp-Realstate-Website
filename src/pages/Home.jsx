@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { BannerText1 } from '../utils/constant/bannerText'
 import { featureData } from '../utils/constant/Feature'
 import { PropertyData } from '../utils/constant/Property'

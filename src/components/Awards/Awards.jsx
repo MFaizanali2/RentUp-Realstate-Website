@@ -1,8 +1,10 @@
-import React from "react";
+
 import "./Awards.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// eslint-disable-next-line react/prop-types
 const Awards = ({ data }) => {
+    // eslint-disable-next-line react/prop-types
     const {title, SubTitle, icons} = data
     // console.log(data)
     return (

@@ -1,8 +1,11 @@
-import React from "react";
+
 import "./Location.css";
 
-const Location = ({data}) => {
-    const {city, imgUrl, purpose} =  data
+
+// eslint-disable-next-line react/prop-types
+const Location = ({ data}) => {
+  // eslint-disable-next-line react/prop-types
+  const { city, imgUrl, purpose } = data;
   return (
     <div className="card-container">
       <div className="card">

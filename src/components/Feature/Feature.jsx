@@ -1,8 +1,10 @@
-import React from "react";
+
 import "./Feature.css";
 
+// eslint-disable-next-line react/prop-types
 const Feature = ({ data }) => {
-    const {head, para, title, subTitle, imgUrl } = data
+    // eslint-disable-next-line react/prop-types, no-unused-vars
+    const { head, para, title, subTitle, imgUrl } = data;
     // console.log(data)
     return (
         <div className="feature-wrapper">               
